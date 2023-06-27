@@ -1,0 +1,14 @@
+server:
+  port: 2001
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Customer
+    username: admin
+    password: Test@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  application:
+    name: CUSTOMER-SERVICE
